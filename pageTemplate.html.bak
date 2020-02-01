@@ -23,7 +23,7 @@
           id="index-navbar"
           class="nav navbar navbar-expand-lg navbar-dark back-color-primary-2 switch-sm-row-to-lg-col nav-pills"
         >
-          <a class="navbar-brand" href="/"><img src="images/logo.png" width="50" height=auto alt="Axe diaries logo"/></a>
+          <a class="navbar-brand" href="/"><img src="/images/logo.png" width="50" height=auto alt="Axe diaries logo"/></a>
           <button
             id="menu-toggle"
             class="navbar-toggler"
@@ -44,8 +44,8 @@
             <ul
               class="nav nav-pills switch-sm-row-to-lg-col"
             >
-              <li class="nav-item"><a class="nav-link" href="#">About ?</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Diaries</a></li>
+              <li class="nav-item"><a class="nav-link" href="/pages/about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="/pages/diaries.html">Diaries</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Top Picks</a></li>
             </ul>
           </div>
