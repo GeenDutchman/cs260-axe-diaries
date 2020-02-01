@@ -1,4 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/59e1f8062e63a014fa00c78610077806?family=BPchildLefty);
+@import url("https://fonts.googleapis.com/css?family=Cedarville+Cursive|Gochi+Hand|Patrick+Hand&display=swap");
+
 
 @font-face {
   font-family: "BPchildLefty";
@@ -15,7 +17,6 @@
       format("svg");
 }
 
-@import url("https://fonts.googleapis.com/css?family=Cedarville+Cursive|Gochi+Hand|Patrick+Hand&display=swap");
 
 
 .barbarian-script {
