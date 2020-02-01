@@ -16,14 +16,20 @@
     <title>Axe diaries</title>
   </head>
 
-  <body class="back-color-primary-0">
+  <body class="back-color-primary-0 color-primary-1">
     <div class="main_div">
       <div class="switch-sm-row-to-lg-col" id="navbar_thing">
         <nav
           id="index-navbar"
           class="nav navbar navbar-expand-lg navbar-dark back-color-primary-2 switch-sm-row-to-lg-col nav-pills"
         >
-          <a class="navbar-brand" href="/"><img src="/images/logo.png" width="50" height=auto alt="Axe diaries logo"/></a>
+          <a class="navbar-brand" href="/"
+            ><img
+              src="/images/logo.png"
+              width="50"
+              height="auto"
+              alt="Axe diaries logo"
+          /></a>
           <button
             id="menu-toggle"
             class="navbar-toggler"
@@ -41,21 +47,28 @@
             id="menu-list"
             class="collapse navbar-dark navbar-collapse switch-sm-row-to-lg-col"
           >
-            <ul
-              class="nav nav-pills switch-sm-row-to-lg-col"
-            >
-              <li class="nav-item"><a class="nav-link" href="/pages/about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="/pages/diaries.html">Diaries</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Top Picks</a></li>
+            <ul class="nav nav-pills switch-sm-row-to-lg-col">
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/introduction.html"
+                  >Introduction</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/parties.html">Parties</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/about.html">About</a>
+              </li>
             </ul>
           </div>
         </nav>
       </div>
 
-      <div class="content">
+      <div class="content brand">
         <div class="section">
           <h1>Welcome to Axe Diaries!</h1>
           <p>A place to keep your party notes!</p>
+
         </div>
       </div>
 
@@ -76,7 +89,9 @@
           crossorigin="anonymous"
         ></script>
       </div>
+      <hr />
     </div>
+
     <footer>
       <a href="#" style="text-decoration-line: line-through;"
         >My assignment repository.</a
