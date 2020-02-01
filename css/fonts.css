@@ -21,6 +21,8 @@
 
 .barbarian-script {
   font-family: "BPchildLefty", sans-serif;
+  font-size: large;
+  font-weight: 600;
 }
 
 .druid-script {
@@ -33,4 +35,6 @@
 
 .wizard-script {
   font-family: "Cedarville Cursive", monospace;
+  font-size: large;
+  font-weight: 600;
 }
