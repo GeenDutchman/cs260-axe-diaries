@@ -13,6 +13,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/diaries.css" />
     <title>Axe diaries</title>
   </head>
 
@@ -23,13 +25,7 @@
           id="index-navbar"
           class="nav navbar navbar-expand-lg navbar-dark back-color-primary-2 switch-sm-row-to-lg-col nav-pills"
         >
-          <a class="navbar-brand" href="/"
-            ><img
-              src="/images/logo.png"
-              width="50"
-              height="auto"
-              alt="Axe diaries logo"
-          /></a>
+          <a class="navbar-brand" href="/"><img src="/images/logo.png" width="50" height=auto alt="Axe diaries logo"/></a>
           <button
             id="menu-toggle"
             class="navbar-toggler"
@@ -47,18 +43,12 @@
             id="menu-list"
             class="collapse navbar-dark navbar-collapse switch-sm-row-to-lg-col"
           >
-            <ul class="nav nav-pills switch-sm-row-to-lg-col">
-              <li class="nav-item">
-                <a class="nav-link" href="/pages/introduction.html"
-                  >Introduction</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/pages/diaries.html">Diaries</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/pages/about.html">About</a>
-              </li>
+            <ul
+              class="nav nav-pills switch-sm-row-to-lg-col"
+            >
+              <li class="nav-item"><a class="nav-link" href="/pages/diaries.html">Diaries</a></li>
+              <li class="nav-item"><a class="nav-link" href="/pages/introduction.html" active>Introduction</a></li>
+              <li class="nav-item"><a class="nav-link" href="/pages/about.html">About</a></li>
             </ul>
           </div>
         </nav>
