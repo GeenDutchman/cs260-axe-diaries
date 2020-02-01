@@ -17,6 +17,7 @@
     <!-- fonts -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Gochi+Hand|Patrick+Hand&display=swap" rel="stylesheet">  -->
     <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/diaries.css" />
     <title>Axe diaries</title>
   </head>
 
@@ -27,7 +28,14 @@
           id="index-navbar"
           class="nav navbar navbar-expand-lg navbar-dark back-color-primary-2 switch-sm-row-to-lg-col nav-pills"
         >
-        <a class="navbar-brand" href="/"><img src="/images/logo.png" width="50" height=auto alt="Axe diaries logo"/></a>          <button
+          <a class="navbar-brand" href="/"
+            ><img
+              src="/images/logo.png"
+              width="50"
+              height="auto"
+              alt="Axe diaries logo"
+          /></a>
+          <button
             id="menu-toggle"
             class="navbar-toggler"
             type="button"
@@ -44,12 +52,18 @@
             id="menu-list"
             class="collapse navbar-dark navbar-collapse switch-sm-row-to-lg-col"
           >
-            <ul
-              class="nav nav-pills switch-sm-row-to-lg-col"
-            >
-              <li class="nav-item"><a class="nav-link" href="/pages/about.html">About ?</a></li>
-              <li class="nav-item"><a class="nav-link" href="/pages/diaries.html" active>Diaries</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Top Picks</a></li>
+            <ul class="nav nav-pills switch-sm-row-to-lg-col">
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/about.html">About ?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/diaries.html" active
+                  >Diaries</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/introduction.html">Introduction</a>
+              </li>
             </ul>
           </div>
         </nav>
@@ -58,11 +72,16 @@
       <div class="content">
         <div class="section">
           <h1>Welcome to Axe Diaries!</h1>
-          <p>A place to keep your party notes!</p>
-          <p class="druid-script">I am the druid</p>
-          <p class="barbarian-script">I am the barbarian!</p>
-          <p class="fighter-script">I am the fighter!</p>
-          <p class="wizard-script">I am the wizard.</p>
+
+        </div>
+        <div class="card back-color-primary-1">
+          <div class="card-body">
+            <h5 class="card-title">Some event happened!</h5>
+            <h6 class="card-subtitle mb-2 text-muted">67 day of Maarth</h6>
+            <p class="card-text">
+              This could be some description of a story that happened.  I will generate this momentarily.
+            </p>
+          </div>
         </div>
       </div>
 
