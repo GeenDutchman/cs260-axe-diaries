@@ -30,7 +30,10 @@
 .back-color-primary-4 { background-color: var(--color-primary-4) }
 
 .brand {
-  background-image: "/images/logo.png";
+  background-image: url("/images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   box-sizing: border-box;
   alt: "Axe diaries logo"
 }
@@ -78,6 +81,8 @@ h2 {
   /* width: 100%; */
   display: flex;
   flex-direction: column;
+  font-size: 120%;
+  font-weight: bolder;
 }
 
 .switch-sm-row-to-lg-col {
