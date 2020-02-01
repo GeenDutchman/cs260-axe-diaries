@@ -1,0 +1,19 @@
+.card {
+    width: max-content;
+    align-self: center;
+    margin: 5%;
+}
+
+.switch-sm-col-to-lg-row {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+    .switch-sm-col-to-lg-row {
+        flex-direction: row !important;
+        height: auto;
+        justify-content: space-around;
+    }
+}
